@@ -1,0 +1,23 @@
+<nav class="nav-extended ">
+    
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent ">
+        <div class="center">
+          {{#if isLogin}}
+            <li class="tab"><a class="active" href="/auth/login">Login</a></li>
+          {{else}}
+            <li class="tab"><a href="/auth/login">Login</a></li>
+          {{/if}}
+
+          {{#if isRegister}}
+            <li class="tab"><a class="active" href="/auth/register">Register</a></li>
+          {{else}}
+            <li class="tab"><a  href="/auth/register">Register</a></li>
+          {{/if}}
+        </div>
+      </ul>
+    </div>
+  </nav>
+ 
+
+  
