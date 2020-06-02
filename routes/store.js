@@ -8,7 +8,7 @@ router.get("/",async (req,res)=>{// ! req= browser->server; res= server->browser
   console.log('item', item);
   res.render("store", {
     title:"Store",
-    item:[{cost:2000}],
+    item:[{cost:2000},{cost:3000}],
     isStore:true
   })
 })
